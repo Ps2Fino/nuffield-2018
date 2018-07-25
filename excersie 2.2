@@ -1,0 +1,21 @@
+using System;
+
+class dt
+{
+    static void Main(string[] args) {
+    {
+        using (Datatable x = new Datatable())
+        {   
+            x.Columns.Add("forename", typeof(string));
+            x.Columns.Add("surname", typeof(string));
+            x.Columns.Add("age", typeof(int));
+            x.Columns.Add("favourite food", typeof(string));
+            
+            x.Rows.Add("Guled", "suufi", "17", "chicken");
+            x.Rows.Add("Danish", "Ilyas", "12", "Goat curry");
+         
+            Console.WriteLine(x.Rows[0].Field<string>(0));
+        }
+    }
+}
+
