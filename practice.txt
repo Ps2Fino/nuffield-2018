@@ -48,19 +48,6 @@ namespace ConsoleApplication1
                 Console.WriteLine("hahahahaha");     //if number is higher than 255 than a messag will appear as a byte cant store numbers over 255
             }                                        //if not than it will resume 
 
-            int G = 22;
-            if (G > 23)
-            {
-                Console.WriteLine("G is bigger than 23 ")
-                    
-            else:
-                Console.WriteLine("G is less than 23");
-            }
-
-
-            {
-                console
-            }
 
 
 
